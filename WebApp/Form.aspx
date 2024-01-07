@@ -47,7 +47,7 @@
         </div>--%>
     </div>
     <div class="col-12 mt-3">
-        <asp:Button Text="Agregar" runat="server" CssClass="btn btn-primary" />
+        <asp:Button Text="Agregar" OnClick="Agregar_Click" runat="server" CssClass="btn btn-primary" />
     </div>
 </div>
 </asp:Content>

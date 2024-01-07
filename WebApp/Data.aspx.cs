@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using dominio;
 
 namespace WebApp
 {
@@ -11,7 +12,10 @@ namespace WebApp
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (Session["Contactos"] != null) { 
+                gvContactos.DataSource = (List<Persona>)Session["Contactos"];
+                gvContactos.DataBind();
+            }
         }
     }
 }
