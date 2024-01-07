@@ -5,6 +5,6 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <asp:GridView runat="server" id="gvContactos" CssClass="border-3 border-primary-subtle mt-3 table table-bordered caption-top" Caption="Lista de contactos">
-
+    
     </asp:GridView>
 </asp:Content>
